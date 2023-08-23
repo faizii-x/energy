@@ -1,5 +1,5 @@
 import React from "react";
-import Compaigns from "./pages/compaign";
+import Compaigns from "../pages/compaign";
 
 
 

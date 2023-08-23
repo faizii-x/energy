@@ -3,7 +3,7 @@ import LightBulb from "../../public/assets/png/lightbulb.jpg"
 import BlueBulb from "../../public/assets/png/bluebulb.jpg"
 import Impacts from "../../public/assets/png/impacts.webp"
 import Ben from "../../public/assets/png/ben.jpg"
-import New from "../../public/assets/png/New.jpg"
+import New from "../../public/assets/png/new.jpg"
 
 
 
