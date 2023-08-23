@@ -1,11 +1,11 @@
 import React from 'react'
-import Navbar from '../app/component/navbar'
-import Anim from '../app/component/anim'
-import CardHome from '../app/component/cardHome'
-import ShortVid from '../app/component/shortVid'
-import CardTab from '../app/component/cardTab'
-import Images from '../app/component/images'
-import Footer from '../app/component/footer'
+import Navbar from '../component/navbar'
+import Anim from '../component/anim'
+import CardHome from '../component/cardHome'
+import ShortVid from '../component/shortVid'
+import CardTab from '../component/cardTab'
+import Images from '../component/images'
+import Footer from '../component/footer'
 
 function Landing() {
   return (

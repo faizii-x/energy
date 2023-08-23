@@ -1,8 +1,8 @@
 "use client";
-import Logo from "../../../public/assets/png/logo.png";
+import Logo from "../../public/assets/png/logo.png";
 import Image from "next/image";
 import { useState } from "react";
-import Drawer from "../component/drawer";
+import Drawer from "./drawer";
 import Link from "next/link";
 
 function Navbar() {

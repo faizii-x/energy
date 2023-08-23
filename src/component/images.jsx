@@ -1,9 +1,9 @@
 "use client"
-import Bluebulb from "../../../public/assets/png/bluebulb.jpg";
-import Greenbulb from "../../../public/assets/png/greenbulb.webp";
-import Electrician from "../../../public/assets/png/electrician.jpg";
-import Gas from "../../../public/assets/png/gas.jpg";
-import ManLight from "../../../public/assets/png/manlight.jpg";
+import Bluebulb from "../../public/assets/png/bluebulb.jpg";
+import Greenbulb from "../../public/assets/png/greenbulb.webp";
+import Electrician from "../../public/assets/png/electrician.jpg";
+import Gas from "../../public/assets/png/gas.jpg";
+import ManLight from "../../public/assets/png/manlight.jpg";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 

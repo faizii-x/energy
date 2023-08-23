@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Tab } from "@headlessui/react";
 import Image from "next/image";
-import World from "../../../public/assets/png/world.webp";
+import World from "../../public/assets/png/world.webp";
 
 
 function classNames(...classes) {

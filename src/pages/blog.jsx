@@ -1,5 +1,5 @@
 import React from "react";
-import Tabs from "../app/component/tabs";
+import Tabs from "../component/tabs";
 
 function Blog() {
   return (

@@ -4,7 +4,7 @@ function Compaigns() {
   return (
    <>
    
-   <div>compaigns</div>
+   <div className='text-[60px] text-red-600'>compaigns</div>
    
    </>
   )

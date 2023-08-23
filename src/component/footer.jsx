@@ -1,8 +1,8 @@
-import Logo from "../../../public/assets/png/logo.png";
-import Fb from "../../../public/assets/png/fb.png";
-import Twitt from "../../../public/assets/png/twitt.png";
-import Youtube from "../../../public/assets/png/youtube.png";
-import Linkedin from "../../../public/assets/png/linkedin.png";
+import Logo from "../../public/assets/png/logo.png";
+import Fb from "../../public/assets/png/fb.png";
+import Twitt from "../../public/assets/png/twitt.png";
+import Youtube from "../../public/assets/png/youtube.png";
+import Linkedin from "../../public/assets/png/linkedin.png";
 import Image from "next/image";
 
 

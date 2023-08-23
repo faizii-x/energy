@@ -1,4 +1,4 @@
-import { TAB_CARDs } from "../data";
+import { TAB_CARDs } from "../app/data";
 import Image from "next/image";
 import Link from "next/link";
 

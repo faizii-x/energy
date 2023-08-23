@@ -1,9 +1,11 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
     './src/components/**/*.{js,ts,jsx,tsx,mdx}',
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
     extend: {
@@ -16,7 +18,6 @@ module.exports = {
         blob: {
           "0%": {
             transform: "scale(1) translateY(0)",
-
             transformOrigin: "50% 16%",
 
             // transform: "translate(30px, 30px) scale(1)",
@@ -28,8 +29,6 @@ module.exports = {
           //   transform: "translate(-20px, 20px) scale(1.1)",
           // },
           "100%": {
-
-
             transform: "scale(1.15) translateY(-15px)",
             transformOrigin:"top",
 
