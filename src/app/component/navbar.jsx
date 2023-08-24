@@ -1,5 +1,5 @@
 "use client";
-import Logo from "../../public/assets/png/logo.png";
+import Logo from "../../../public/assets/png/logo.png";
 import Image from "next/image";
 import { useState } from "react";
 import Drawer from "./drawer";
@@ -13,15 +13,17 @@ function Navbar() {
   return (
     <>
       <div className="bg-[#445069]">
-        <div className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 container  mx-auto">
+        <header className="grid grid-cols-4 md:grid-cols-8 lg:grid-cols-12 container  mx-auto">
           <div className="col-span-2">
+            <Link href="/">
             <Image className="cursor-pointer w-[100%] h-[95px]" src={Logo} />
+            </Link>
           </div>
 
           <div className="col-span-8 hidden lg:block">
             <div className="flex justify-center gap-10  mt-10">
               <Link href="/">
-                <h2 className="text-white font-poppins hover:text-green-500">Home</h2>
+                <h2 className="text-white font-poppins hover:text-green-500">Home</h2>  
               </Link>
               <Link href="/compaign">
                 <h2 className="text-white font-poppins hover:text-green-500">Compaigns</h2>
@@ -66,7 +68,7 @@ function Navbar() {
           </div>
 
           <Drawer open={open} setOpen={handleOnClose} />
-        </div>
+        </header>
       </div>
     </>
   );

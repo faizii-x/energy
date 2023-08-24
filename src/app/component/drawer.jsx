@@ -1,9 +1,8 @@
 import { Fragment } from "react";
+import Link from "next/link";
 import { Dialog, Transition } from "@headlessui/react";
 
-
 export default function Drawer({ open, setOpen }) {
-
   return (
     <Transition.Root show={open} as={Fragment}>
       <Dialog as="div" className="relative z-10" onClose={setOpen}>
@@ -47,30 +46,38 @@ export default function Drawer({ open, setOpen }) {
                         onClick={() => setOpen(false)}
                       >
                         <span className="sr-only">Close panel</span>
-                        <div
-                          className="h-6 w-6 text-white"
-                          aria-hidden="true"
-                        >X</div>
+                        <div className="h-6 w-6 text-white" aria-hidden="true">
+                          X
+                        </div>
                       </button>
                     </div>
                   </Transition.Child>
                   <div className="flex h-full flex-col overflow-y-scroll bg-[#240060] py-3 shadow-xl">
                     <div className="container grid grid-cols-1 p-4">
-                      <h2 className="text-white font-nunito mt-6">Home</h2>
-
-                      <h2 className="text-white font-nunito mt-2">Resources</h2>
-
-                      <h2 className="text-white font-nunito mt-2">About Us</h2>
-
-                      <h2 className="text-white font-nunito mt-2">
-                        Solutions
-                      </h2>
-
-                      <h2 className="text-white font-nunito mt-2">Career</h2>
-
-                      <h2 className="text-white font-nunito mt-2">
-                        Contact Us
-                      </h2>
+                      <Link href="/">
+                        <h2 className="text-white font-nunito mt-6">Home</h2>
+                      </Link>
+                      <Link href="/compaign">
+                        <h2 className="text-white font-nunito mt-2">
+                          Compaigns
+                        </h2>
+                      </Link>
+                      <Link href="/refferal">
+                        <h2 className="text-white font-nunito mt-2">
+                          Refferals
+                        </h2>
+                      </Link>
+                      <Link href="/promotion">
+                        <h2 className="text-white font-nunito mt-2">
+                          Promotions
+                        </h2>
+                      </Link>
+                      <Link href="/blog">
+                        <h2 className="text-white font-nunito mt-2">Blog</h2>
+                      </Link>
+                      <Link href="/contact">
+                        <h2 className="text-white font-nunito mt-2">Contact</h2>
+                      </Link>
                     </div>
                   </div>
                 </Dialog.Panel>

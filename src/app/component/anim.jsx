@@ -1,4 +1,4 @@
-import Hero from "../../public/assets/png/hero.png";
+import Hero from "../../../public/assets/png/hero.png";
 import Image from "next/image";
 
 

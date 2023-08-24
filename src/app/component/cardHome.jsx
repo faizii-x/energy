@@ -1,4 +1,4 @@
-import { CARDS_HOME } from "../app/data";
+import { CARDS_HOME } from "../data";
 import Image from "next/image";
 
 
