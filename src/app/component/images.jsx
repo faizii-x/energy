@@ -1,9 +1,9 @@
 "use client"
-import Bluebulb from "../../public/assets/png/bluebulb.jpg";
-import Greenbulb from "../../public/assets/png/greenbulb.webp";
-import Electrician from "../../public/assets/png/electrician.jpg";
-import Gas from "../../public/assets/png/gas.jpg";
-import ManLight from "../../public/assets/png/manlight.jpg";
+import Bluebulb from "../../../public/assets/png/bluebulb.jpg";
+import Greenbulb from "../../../public/assets/png/greenbulb.webp";
+import Electrician from "../../../public/assets/png/electrician.jpg";
+import Gas from "../../../public/assets/png/gas.jpg";
+import ManLight from "../../../public/assets/png/manlight.jpg";
 import Image from "next/image";
 import { useState, useEffect } from "react";
 
@@ -51,14 +51,14 @@ function Images() {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 container mx-auto p-6">
         <div>
           <Image
-            className="rounded-md w-full h-[420px] bg-cover bg-no-repeat"
+            className="rounded-md w-full h-[420px] md:block hidden bg-cover bg-no-repeat"
             src={Bluebulb}
           />
          
         </div>
         <div>
           <Image
-            className="rounded-md w-full h-[420px] bg-no-repeat bg-contain"
+            className="rounded-md w-full h-[420px] md:block hidden bg-no-repeat bg-contain"
             src={Greenbulb}
           />
 

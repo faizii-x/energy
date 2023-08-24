@@ -1,13 +1,13 @@
-import React from 'react'
-
+import Navbar from "@/app/component/navbar";
+import React from "react";
+import "../styles/index.css";
 function Compaigns() {
   return (
-   <>
-   
-   <div className='text-[60px] text-red-600'>compaigns</div>
-   
-   </>
-  )
+    <>
+      <Navbar />
+      <div className="text-[60px] text-red-600">compaigns</div>
+    </>
+  );
 }
 
-export default Compaigns
+export default Compaigns;

@@ -1,7 +1,7 @@
 import Image from "next/image";
-import One from "../../public/assets/png/one.gif";
-import Two from "../../public/assets/png/two.gif";
-import Three from "../../public/assets/png/three.gif";
+import One from "../../../public/assets/png/one.gif";
+import Two from "../../../public/assets/png/two.gif";
+import Three from "../../../public/assets/png/three.gif";
 
 function ShortVid() {
   return (

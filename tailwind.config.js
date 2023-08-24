@@ -1,16 +1,13 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    "./src/**/*.{js,ts,jsx,tsx}",
+    "./src/pages/*/.{js,ts,jsx,tsx}",
+    "./src/app/*/.{js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
       animation: {
-
         blob: "blob 5s ease-out infinite both",
         // blob: "blob 7s infinite",
       },
@@ -30,7 +27,7 @@ module.exports = {
           // },
           "100%": {
             transform: "scale(1.15) translateY(-15px)",
-            transformOrigin:"top",
+            transformOrigin: "top",
 
             // transform: "translate(30px, -40px) scale(1.1)",
           },
@@ -39,4 +36,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};
