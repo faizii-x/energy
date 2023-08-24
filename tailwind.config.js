@@ -1,25 +1,9 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-<<<<<<< HEAD
     "./src/**/*.{js,ts,jsx,tsx}",
     "./src/pages/*/.{js,ts,jsx,tsx}",
     "./src/app/*/.{js,ts,jsx,tsx}",
-=======
-    // './src/*/.{js,ts,jsx,tsx,mdx}',
-    // './src/pages/*/.{js,ts,jsx,tsx}',
-
-
-    './src/**/*.{js,ts,jsx,tsx}',
-    // './src/app/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    // "./pages/*/.{js,ts,jsx,tsx}",
-    "./src/pages/*/.{js,ts,jsx,tsx}",
-    "./src/component/*/.{js,ts,jsx,tsx}",
-    // './src/components/**/*.{js,ts,jsx,tsx,mdx}',
-    // './src/app/**/*.{js,ts,jsx,tsx,mdx}',
-    // './src/pages/**/*.{js,ts,jsx,tsx,mdx}',
-    // './src/**/*.{js,ts,jsx,tsx,mdx}',
->>>>>>> 268989c4c21c237e7b986cd0a7335aa27c9c1c82
   ],
   theme: {
     extend: { 
