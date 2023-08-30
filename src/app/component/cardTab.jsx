@@ -13,7 +13,7 @@ function CardTab() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 container mx-auto">
           {TAB_CARDs.map((x) => (
             <>
-              <div className=" p-6 mb-12 ">
+              <div className=" p-6 mb-8 ">
                 <Image className="w-[400px] h-[270px]" src={x.img} />
                 <h2 className="text-[22px] font-poppins font-medium mt-3">
                   {x.title}

@@ -5,12 +5,12 @@ import Image from "next/image";
 function CardHome() {
   return (
     <>
-      <div className="bg-[#] mt-24">
+      <div className="bg-[#] lg:mt-24 mt-2">
         <h1 className="text-[40px] font-poppins font-semibold text-center p-8 " >
          Features
         </h1>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative gap-4 mt-2 container mx-auto p-6 pb-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 relative gap-4 container mx-auto p-6 pb-16">
           {CARDS_HOME.map((x) => (
             <>
               <div className="shadow-2xl rounded-md">

@@ -35,7 +35,7 @@ export const TAB_CARDs = [
     {
         img : Ben,
         title: "Benefits",
-        des: "Electricity powers everyday essentials like lighting, heating, cooling, and appliances, enhancing comfort and convenience in homes and workplaces.Electricity is the foundation of modern technology.",
+        des: "Electricity powers everyday essentials like lighting, heating, cooling, and appliances, enhancing comfort and convenience in homes and workplaces.Electricity is the foundation of modern technology.Local Initiatives Promoting Energy Awareness and Conservation.",
     },
     {
         img : New,

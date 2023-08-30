@@ -24,31 +24,37 @@ function Footer() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 w-3/4 p-10 container mx-auto">
           <div>
-            <h1 className="text-[18px] text-white font-poppins font-semibold">Company</h1>
+            <h1 className="text-[18px] text-white font-poppins font-semibold"> About Us</h1>
             <h2 className="text-[16px] text-white font-poppins font-light mt-5 hover:text-green-500 cursor-pointer">
-              Home
+            Compaigns
             </h2>
             <h2 className="text-[16px] text-white font-poppins font-light mt-2 hover:text-green-500 cursor-pointer">
-              Compaigns
+            Refferal Programs
             </h2>
             <h2 className="text-[16px] text-white font-poppins font-light mt-2 hover:text-green-500 cursor-pointer">
-              Goals
+              Energy
             </h2>
             <h2 className="text-[16px] text-white font-poppins font-light mt-2 hover:text-green-500 cursor-pointer">
-              Career
+              FAQ's
             </h2>
             <h2 className="text-[16px] text-white font-poppins font-light mt-2 hover:text-green-500 cursor-pointer">
-              Contact Us
+              Brokers
             </h2>
           </div>
           <div>
-            <h1 className="text-[18px] text-white font-poppins font-semibold">Help</h1>
+            <h1 className="text-[18px] text-white font-poppins font-semibold">Resources</h1>
 
             <h2 className="text-[16px] text-white font-poppins font-light mt-5 hover:text-green-500 cursor-pointer">
-              Conatct Us
+           Blog
             </h2>
             <h2 className="text-[16px] text-white font-poppins font-light mt-2 hover:text-green-500 cursor-pointer">
-              How it Works
+             Careers
+            </h2>
+            <h2 className="text-[16px] text-white font-poppins font-light mt-2 hover:text-green-500 cursor-pointer">
+             Our Partners
+            </h2>
+            <h2 className="text-[16px] text-white font-poppins font-light mt-2 hover:text-green-500 cursor-pointer">
+             Our Suppliers
             </h2>
           </div>
           <div>

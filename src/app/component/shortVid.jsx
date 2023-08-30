@@ -7,7 +7,7 @@ function ShortVid() {
   return (
     <>
 
-    <h1 className="text-[20px] font-poppins font-semibold text-center mt-24">How do I sign up with a supplier?</h1>
+    <h1 className="text-[20px] font-poppins font-semibold text-center mt-10 lg:mt-16">How do I sign up with a supplier?</h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-3/4 p-16 container mx-auto" >
         <div className="mx-auto">
         <Image className="rounded-md" src={One} />
@@ -19,7 +19,7 @@ function ShortVid() {
         </div>
         <div className="mx-auto">
         <Image className="rounded-md" src={Three} />
-        <p className="text-center text-[16px] text-[#5E626C] p-2 font-poppins font-light mt-2 pb-12 ">Order the Plan<br/> That's Right for<br/> You</p>
+        <p className="text-center text-[16px] text-[#5E626C] p-2 font-poppins font-light mt-2 pb-6 ">Order the Plan<br/> That's Right for<br/> You</p>
         </div>
       </div>
     
